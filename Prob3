@@ -1,0 +1,25 @@
+/*Create a C++ program which prints the letters in a char array in reverse order and shows the size of
+the array.
+Example:
+If the array contains {'e', 'n', 'g', '1', '9', '0', '7'}, the output (to the terminal) should be "0179egn".*/
+
+#include<iostream>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+	int i,n,num,j,b,s;
+	char list[7];
+	for (i=0; i<7; i++)
+{
+	cin >> list[i];
+}
+cout << "Sorted in backwards" << endl;
+for (int b=6; b>=0; b--)
+{
+	cout << list[b] << " ";
+}
+	return 0;
+}
